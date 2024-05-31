@@ -7,7 +7,7 @@ import pandas as pd
 EMAIL_FROM = 'tempmailer0801@gmail.com'
 PASSWORD = 'racpjhggrsfjkyje'
 
-recipient_list = ['hinal@ibisp.in', 'tempmailer0801@gmail.com']
+recipient_list = ['hinal@ibisp.in', 'tempmailer0801@gmail.com', 'ishan@ibisp.in', 'bhargav@ibisp.in', 'ajay@ibisp.in', 'shashva@ibisp.in']
 EMAIL_TO = ', '.join(recipient_list)
 
 def attach_file_to_email(email_message, filename, extra_headers=None):
